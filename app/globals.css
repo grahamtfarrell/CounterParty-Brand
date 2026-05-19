@@ -2,6 +2,7 @@
 
 :root {
   --background: #f3f0e7;
+  --navy-background: #00173c;
   --foreground: #002663;
   --page-gutter: 3.5%;
   --brand-section-gap: clamp(6rem, 16vw, 14rem);
@@ -127,19 +128,41 @@ body {
   padding-top: var(--brand-section-gap);
 }
 
+.posters-section {
+  box-sizing: border-box;
+  width: 100%;
+  padding-inline: var(--page-gutter);
+  padding-top: 0;
+  padding-bottom: 0;
+  background-color: var(--navy-background);
+}
+
+.logo-video-section {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.posters-section__image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
 .footer-gap {
   display: block;
   width: 100%;
   height: var(--brand-section-gap);
   min-height: var(--brand-section-gap);
-  background-color: var(--background);
+  background-color: var(--navy-background);
   flex-shrink: 0;
 }
 
-.counter-footer {
+.footer-video-section {
   width: 100%;
   margin: 0;
-  padding: 0;
+  padding: var(--brand-section-gap) 0 0;
   overflow: hidden;
 }
 

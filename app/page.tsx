@@ -3,10 +3,12 @@ import { HeroMovie } from "@/components/HeroMovie";
 import { CounterLogoSection } from "@/components/CounterLogoSection";
 import { ColorSection } from "@/components/ColorSection";
 import { CounterMarkSection } from "@/components/CounterMarkSection";
+import { FooterVideoSection } from "@/components/FooterVideoSection";
 import { LogoUpdateSection } from "@/components/LogoUpdateSection";
+import { LogoVideoSection } from "@/components/LogoVideoSection";
 import { MotifSection } from "@/components/MotifSection";
+import { PostersSection } from "@/components/PostersSection";
 import { ProductShowcase } from "@/components/ProductShowcase";
-import { CounterFooter } from "@/components/CounterFooter";
 import { TickerSection } from "@/components/TickerSection";
 
 export default function Home() {
@@ -34,8 +36,10 @@ export default function Home() {
           <MotifSection />
           <TickerSection />
         </div>
+        <FooterVideoSection />
         <div className="footer-gap" aria-hidden />
-        <CounterFooter />
+        <PostersSection />
+        <LogoVideoSection />
       </main>
     </>
   );

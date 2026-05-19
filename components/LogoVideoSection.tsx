@@ -1,11 +1,11 @@
 import { ResponsiveMedia } from "./ResponsiveMedia";
 
-export function CounterFooter() {
+export function LogoVideoSection() {
   return (
-    <footer className="counter-footer">
+    <section className="logo-video-section" aria-label="Counterparty logo film">
       <ResponsiveMedia
         kind="video"
-        src="/brand/counter_footer.mp4"
+        src="/brand/c_logo.mp4"
         viewportHeight
         objectFit="cover"
         autoPlay
@@ -14,6 +14,6 @@ export function CounterFooter() {
         playsInline
         preload="metadata"
       />
-    </footer>
+    </section>
   );
 }
