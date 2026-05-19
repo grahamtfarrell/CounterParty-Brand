@@ -1,0 +1,7 @@
+public/brand/counter_logo.png filter=lfs diff=lfs merge=lfs -text
+public/brand/counter_color.png filter=lfs diff=lfs merge=lfs -text
+public/brand/matches.png filter=lfs diff=lfs merge=lfs -text
+*.mp4 filter=lfs diff=lfs merge=lfs -text
+*.gif filter=lfs diff=lfs merge=lfs -text
+public/brand/collage.png filter=lfs diff=lfs merge=lfs -text
+public/brand/counter_gradient.png filter=lfs diff=lfs merge=lfs -text
