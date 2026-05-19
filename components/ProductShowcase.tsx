@@ -5,11 +5,15 @@ export function ProductShowcase() {
     <section className="product-showcase bg-[#F3F0E7]">
       <div className="product-showcase__pair">
         <div className="relative flex h-full min-h-0 items-end overflow-hidden rounded-2xl md:rounded-3xl">
-          <img
-            src="/brand/book.gif"
-            alt="Counterparty book"
+          <video
+            src="/brand/book.mp4"
             className="h-full w-full object-contain object-bottom"
-            loading="lazy"
+            autoPlay
+            muted
+            loop
+            playsInline
+            preload="metadata"
+            aria-label="Counterparty book"
           />
         </div>
         <div className="aspect-[1184/1328] w-full min-w-0 overflow-hidden rounded-2xl md:rounded-3xl">
