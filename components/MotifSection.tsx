@@ -24,7 +24,7 @@ export function MotifSection() {
 
       <section className="gradient-section w-full">
         <video
-          src="/brand/overlay.mp4"
+          src="/brand/overlay-20s.mp4"
           className="gradient-section__image"
           autoPlay
           muted
@@ -50,7 +50,7 @@ export function MotifSection() {
 
       <section className="clean-timer-section w-full">
         <video
-          src="/brand/clean_timer.mp4"
+          src="/brand/clean_timer-20s.mp4"
           className="clean-timer-section__image"
           autoPlay
           muted
