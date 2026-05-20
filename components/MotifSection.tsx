@@ -47,6 +47,19 @@ export function MotifSection() {
           aria-label="Counterparty site final"
         />
       </section>
+
+      <section className="clean-timer-section w-full">
+        <video
+          src="/brand/clean_timer.mp4"
+          className="clean-timer-section__image"
+          autoPlay
+          muted
+          loop
+          playsInline
+          preload="metadata"
+          aria-label="Counterparty clean timer"
+        />
+      </section>
     </>
   );
 }

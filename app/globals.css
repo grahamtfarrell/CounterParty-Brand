@@ -135,6 +135,16 @@ body {
   height: auto;
 }
 
+.clean-timer-section {
+  padding-top: var(--page-gutter);
+}
+
+.clean-timer-section__image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
 .ticker-section {
   padding-top: var(--brand-section-gap);
 }
