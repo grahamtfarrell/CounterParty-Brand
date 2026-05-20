@@ -28,7 +28,6 @@ export default function Home() {
               get rich before i turn 30 years old?&rdquo;
             </p>
           </section>
-          <ProductShowcase />
           <CounterLogoSection />
           <LogoUpdateSection />
           <CounterMarkSection />
@@ -40,6 +39,9 @@ export default function Home() {
         <div className="footer-gap" aria-hidden />
         <PostersSection />
         <LogoVideoSection />
+        <div className="page-content bg-[#F3F0E7]">
+          <ProductShowcase />
+        </div>
       </main>
     </>
   );
