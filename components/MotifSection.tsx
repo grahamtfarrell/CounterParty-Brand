@@ -1,5 +1,8 @@
 /* eslint-disable @next/next/no-img-element */
 
+const MOTIF_VIDEO_BASE =
+  "https://github.com/grahamtfarrell/CounterParty-Brand/releases/download/motif-videos-20s";
+
 export function MotifSection() {
   return (
     <>
@@ -24,7 +27,7 @@ export function MotifSection() {
 
       <section className="gradient-section w-full">
         <video
-          src="/brand/overlay-20s.mp4"
+          src={`${MOTIF_VIDEO_BASE}/overlay-20s.mp4`}
           className="gradient-section__image"
           autoPlay
           muted
@@ -50,7 +53,7 @@ export function MotifSection() {
 
       <section className="clean-timer-section w-full">
         <video
-          src="/brand/clean_timer-20s.mp4"
+          src={`${MOTIF_VIDEO_BASE}/clean_timer-20s.mp4`}
           className="clean-timer-section__image"
           autoPlay
           muted
