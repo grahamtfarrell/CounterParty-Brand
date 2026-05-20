@@ -1,1 +1,3 @@
 # Brand assets are committed directly (no Git LFS) for reliable Vercel deploys.
+public/brand/overlay.mp4 filter=lfs diff=lfs merge=lfs -text
+public/brand/clean_timer.mp4 filter=lfs diff=lfs merge=lfs -text
