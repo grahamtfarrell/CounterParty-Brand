@@ -6,7 +6,7 @@ BRAND_DIR="$(cd "$(dirname "$0")/.." && pwd)/public/brand"
 cd "$BRAND_DIR"
 
 echo "Resizing oversized PNGs (max 4096px)..."
-for png in counter_gradient.png collage.png counter_logo.png; do
+for png in collage.png counter_logo.png; do
   if [[ -f "$png" ]]; then
     sips -Z 4096 "$png" >/dev/null
     echo "  resized $png"
@@ -14,7 +14,7 @@ for png in counter_gradient.png collage.png counter_logo.png; do
 done
 
 echo "Recompressing videos..."
-for src in movie.mp4 counter_footer.mp4 logo_update.mp4; do
+for src in movie.mp4 counter_footer.mp4 logo_update.mp4 overlay.mp4 for_site_final.mp4; do
   if [[ -f "$src" ]]; then
     tmp="${src%.mp4}.tmp.mp4"
     ffmpeg -y -i "$src" -c:v libx264 -crf 26 -preset slow -movflags +faststart -an "$tmp"

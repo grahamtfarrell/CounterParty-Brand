@@ -125,6 +125,16 @@ body {
   padding-top: var(--page-gutter);
 }
 
+.site-final-section {
+  padding-top: var(--page-gutter);
+}
+
+.site-final-section__image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
 .ticker-section {
   padding-top: var(--brand-section-gap);
 }
